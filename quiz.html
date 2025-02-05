@@ -15,6 +15,10 @@
             flex-direction: column;
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
+            background-image: url(japan_ai_bg.jpeg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
         }
 
         .quiz-container {
@@ -27,7 +31,7 @@
         }
 
         .question {
-            font-size: 24px;
+            font-size: 36px;
             font-weight: bold;
             margin-bottom: 20px;
         }
@@ -55,8 +59,8 @@
 <body>
     <div class="quiz-container">
         <div class="question" id="question">What is?</div>
-        <div class="options" id="options">
-        </div>
+        <div class="options" id="options"></div>
+        <div class="score" id="score">Score</div>
     </div>
 </body>
 
